@@ -19,7 +19,7 @@ function Child({ updateCount }) {
     <div>
       <button
         onClick={handleClick}
-        className={`h-[100px] w-[100px] bg-${color} border border-black rounded`}
+        className={`h-[100px] w-[100px] bg-${color} border border-grey rounded`}
       ></button>
     </div>
   );
